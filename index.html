@@ -26,7 +26,7 @@ referrerpolicy="no-referrer"
       Web<span class="header-studio">Studio</span></a>    
     <nav class="header-navigation">
     <ul class="header-list list">
-    <li class="header-item"><a href="index.html" class="header-link link current">Студия</a></li>
+    <li class="header-item"><a href="index.html" class="header-link current link ">Студия</a></li>
         <li class="header-item"><a href="portfolio.html" class="header-link link ">Портфолио</a></li>
         <li class="header-item"><a href="#contact" class="header-link link ">Контакты</a></li>
       </ul>
@@ -45,7 +45,7 @@ referrerpolicy="no-referrer"
   <div class="container">
   <h1 class="hero-title">Эффективные решения<br> для вашего бизнеса</h1>
 
-  <button class="hero-btn link" type="button">Заказать услугу</button>
+  <button class="hero-btn link" type="button" data-modal-open>Заказать услугу</button>
   </div>
 </section>
 <section class="about">
@@ -64,9 +64,9 @@ referrerpolicy="no-referrer"
   <div class="container">
     <h2 class="about-second-title">Чем мы занимаемся</h2>
     <ul class="about-second-list list flex">
-    <li class="about-second-item item"><img src="./1/1.png" alt="Человек пишет на клавиатуре" width="370" height="294"></li>
-    <li class="about-second-item item"><img src="./1/2.png" alt="Человек держит телефон" width="370" height="294"></li>
-    <li class="about-second-item item"><img src="./1/3.png" alt="Человек держит планшет" width="370" height="294"></li>
+    <li class="about-second-item item"><img src="./1/1.png" alt="Человек пишет на клавиатуре" width="370" height="294"><p class="about-top-text">Десктопные приложения</p></li>
+    <li class="about-second-item item"><img src="./1/2.png" alt="Человек держит телефон" width="370" height="294"><p class="about-top-text">Мобильные приложения</p></li>
+    <li class="about-second-item item"><img src="./1/3.png" alt="Человек держит планшет" width="370" height="294"><p class="about-top-text">Дизайнерские решения</p></li>
   </ul>
   </div>
 </section>
@@ -166,6 +166,16 @@ referrerpolicy="no-referrer"
   </div>
 </address>
 </footer>
+<div class="backdrop is-hidden"data-modal ">
+  <div class="modal">
+  <button type="button" class="modal-btn link" data-modal-close>
+    <a href="" class="modal-link link"><svg class="modal-icon" width="17" height="17"><use href="./1/icons.svg#icon-close-black-18dp-2-1"></use></svg></a>
+  </button>      
+    </div>
+  </div>
+</div>
 </main>
+<script src="./js/modal.js"></script>
+
 </body>
 </html>
