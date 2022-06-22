@@ -501,7 +501,7 @@ body{
     color: #FFFFFF;
     text-align: center;
     padding: 63px 24px 63px 24px;
-    transform: translateY(100%);
+    transform: translateY(101%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
     
     /* как выровнять этот текст помогите пж */
