@@ -483,7 +483,8 @@ body{
 /* ---------------------------------------------------------------------------------------PORTFOLIO-HERO------------------------------------------------------ */
 
 .porfolio-hero-item1:hover .prt-text,
-.porfolio-hero-item1:focus .prt-text{
+.porfolio-hero-item1:focus .prt-text,
+.prt-link:focus .prt-text{
     transform: translateY(0);
 }
 
